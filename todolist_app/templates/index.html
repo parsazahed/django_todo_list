@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+    <title>Todolist Manager</title>
+{% endblock title %}
+
+{% block content %}
+    <div class=container>
+        <center>
+            <div class="jumbotron mt-5">
+                <h1 class="display-4">TaskList</h1>
+                <p class="lead">Welcome have fun</p>
+                <hr class="my-4">
+                <a class="btn btn-primary btn-lg" href={% url 'todolist' %} role="button">Organize Now</a>
+                <a class="btn btn-secondary btn-lg" href={% url 'contact' %} role="button">Contact Us</a>
+            </div>
+        </center>
+
+        <div class="row mt-5"> 
+            <div class="col-lg-4">
+                <img src="{% static 'images/1grid.jpg' %}" alt="first" width='360px' height='250px'>
+            </div>
+            <div class="col-lg-4">
+                <img src="{% static 'images/2grid.jpg' %}" alt="second" width='360px' height='250px'>
+            </div>
+            <div class="col-lg-4">
+                <img src="{% static 'images/3grid.jpg' %}" alt="third" width='360px' height='250px'>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-10 offset-md-1">
+                
+            </div>
+
+        </div>
+    
+    </div>
+{% endblock content %}
