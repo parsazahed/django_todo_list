@@ -25,7 +25,7 @@ SECRET_KEY = 'ixfbo*0n(9-mfje5e2ljs((e*4sn)u#t7&zkg-=!@8zj5lr#t-'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [".ngrok.io","127.0.0.1",".localhost.run"]
+ALLOWED_HOSTS = [".ngrok.io","127.0.0.1",".localhost.run", "parsazahed1.pythonanywhere.com"]
 
 
 # Application definition
